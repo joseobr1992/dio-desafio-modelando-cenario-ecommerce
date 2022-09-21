@@ -15,15 +15,15 @@ Refine o modelo apresentado acrescentando os seguintes pontos:
 
 #### O que foi feito
 
-** Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações; **
+##### Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
 Na entidade cliente alterei o atributo identificação para CPF/CNPJ e coloquei como UNIQUE, dessa forma o idCliente terá que ser um ou outro, não poderá ser os dois.
 
-** Pagamento – Pode ter cadastrado mais de uma forma de pagamento; **
+##### Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
 Criei uma entidade Condições de Pagamento e fiz o relacionamento N pra N com a entidade Pedido, dessa forma poderá ser usado várias condições de pagamento no pedido.
 
 Criei uma entidade Forma de pagamento e fiz o relacionamento dela com a entidade cliente de 1 pra N.
 
 Fiz o relacionamento da entidade Formas de pagamento com a pedido de N pra N gerando assim uma nova tabela.
 
-** Entrega – Possui status e código de rastreio; **
+##### Entrega – Possui status e código de rastreio;
 Como já possui o atributo Status do Pedido na entidade pedido, adicionei o atributo código do rastreiro.
