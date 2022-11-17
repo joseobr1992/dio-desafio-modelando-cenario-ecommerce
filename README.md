@@ -1,5 +1,5 @@
 # Modelagem Cenário E-Commerce
-# Boorcampo Database Experience <https://web.dio.me/track/database-experience>
+# Bootcamp Database Experience <https://web.dio.me/track/database-experience>
 
 Após várias aulas foi proposto o desafio de fazer a modelagem do mini-mundo de um e-commerce, dentro da pasta está o arquivo gerado no MySQL e a exportação em PDF.
 
